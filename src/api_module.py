@@ -11,7 +11,8 @@ API_URL = (
 def get_trivia_questions() -> list:
     """Get trivia questions from an API."""
     response = requests.get(API_URL)
-    if response.status_code in (200, 201):
-        return response.json()["results"]
-    else:
-        return []
+    return response.json()
+
+
+if __name__ == "__main__":
+    print(get_trivia_questions())
