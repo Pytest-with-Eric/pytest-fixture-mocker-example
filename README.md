@@ -1,4 +1,4 @@
-# PyTest Fixture Mocker Not Found Example
+# Pytest Fixture Mocker Not Found Example
 
 This repo contains the sample code for the article - [How To Easily Resolve The "Fixture 'Mocker' Not Found" Error in Pytest](https://pytest-with-eric.com/introduction/fixture-mocker-not-found/) 
 
